@@ -9,13 +9,15 @@ package main18161223;
  *
  * @author Invitado1
  */
+
 public class Main18161223 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int n = Integer.parseInt(args[0]);
+        int n = 0;
+               n = Integer.parseInt(args[0]);
 if (n<2){ System.out.println("1");}
 if (n>1 & n<7){System.out.println("0");}
 if (n>6 & n<8) {System.out.println("1");}
