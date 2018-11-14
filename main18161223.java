@@ -1,23 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package main18161223;
 
-/**
- *
- * @author Invitado1
- */
+public class main18161223{
 
-public class main18161223 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        int n = 0;
-               n = Integer.parseInt(args[0]);
+        int n = n = Integer.parseInt(args[0]);
 if (n<2){ System.out.println("1");}
 if (n>1 & n<7){System.out.println("0");}
 if (n>6 & n<8) {System.out.println("1");}
