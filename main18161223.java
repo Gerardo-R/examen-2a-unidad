@@ -10,7 +10,7 @@ package test2;
  * @author Invitado1
  */
 import javax.swing.JOptionPane;
-public class Test2 {
+public class main18161223 {
 
     /**
      * @param args the command line arguments
