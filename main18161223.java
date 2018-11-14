@@ -3,20 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package test2;
+package main18161223;
 
 /**
  *
  * @author Invitado1
  */
-import javax.swing.JOptionPane;
+
 public class main18161223 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int n = Integer.parseInt( JOptionPane.showInputDialog("numero a calcular"));
+        int n = 0;
+               n = Integer.parseInt(args[0]);
 if (n<2){ System.out.println("1");}
 if (n>1 & n<7){System.out.println("0");}
 if (n>6 & n<8) {System.out.println("1");}
@@ -273,5 +274,6 @@ if (n>973 & n<989) {System.out.println("0");}
 if (n>988 & n<990) {System.out.println("1");}
 if (n>989 & n<998) {System.out.println("0");}
 if (n>997 & n<999) {System.out.println("1");}
-}
     }
+    
+}
