@@ -3,7 +3,7 @@ package main18161223;
 public class main18161223{
 
     public static void main(String[] args) {
-        int n = n = Integer.parseInt(args[0]);
+        int n = Integer.parseInt(args[0]);
 if (n<2){ System.out.println("1");}
 if (n>1 & n<7){System.out.println("0");}
 if (n>6 & n<8) {System.out.println("1");}
