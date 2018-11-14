@@ -2,7 +2,7 @@ package main18161223;
 
 public class main18161223{
 
-    public static void main(String[] args) {
+    public static void main18161223(String[] args) {
         int n = Integer.parseInt(args[0]);
 if (n<2){ System.out.println("1");}
 if (n>1 & n<7){System.out.println("0");}
@@ -261,5 +261,4 @@ if (n>988 & n<990) {System.out.println("1");}
 if (n>989 & n<998) {System.out.println("0");}
 if (n>997 & n<999) {System.out.println("1");}
     }
-    
-}
+}    
